@@ -81,4 +81,7 @@ Not deployed yet.
 ## License
 
 This project is licensed under the MIT License.
-```
+
+## Live Demo
+
+https://chukwuma-n.github.io/iyf-s12-week-01-chukwuma-n/
