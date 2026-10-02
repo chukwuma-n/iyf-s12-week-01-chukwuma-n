@@ -131,3 +131,4 @@ which is used to submit the form.
 I took a screenshot of the Firefox **Inspector** panel showing the HTML form and its form controls.
 
 > Note: Firefox calls the Elements panel **Inspector**.
+![Firefox Inspector showing the HTML form](images/devtools-inspector.png)
