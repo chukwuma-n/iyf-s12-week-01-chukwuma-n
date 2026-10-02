@@ -1,11 +1,101 @@
-| Poor HTML               | Semantic HTML   |
-| ----------------------- | --------------- |
-| `<div class="header">`  | `<header>`      |
-| `<div class="nav">`     | `<nav>`         |
-| `<div class="main">`    | `<main>`        |
-| `<div class="article">` | `<article>`     |
-| `<div class="sidebar">` | `<aside>`       |
-| `<div class="footer">`  | `<footer>`      |
-| `<div class="title">`   | `<h1>`          |
-| `<div class="text">`    | `<p>`           |
-| Navigation items        | `<ul>` + `<li>` |
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semantic HTML Conversion - Chukwuma Nicodemus Ndukwu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Semantic HTML Conversion</h1>
+
+        <nav aria-label="Main navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <h2>Understanding Semantic HTML</h2>
+
+            <p>
+                Semantic HTML uses elements that describe the meaning and
+                purpose of the content they contain. This makes webpages
+                easier for people and assistive technologies to understand.
+            </p>
+
+            <h3>Common Semantic Elements</h3>
+
+            <table>
+                <thead>
+                    <tr>
+                        <th scope="col">Poor HTML</th>
+                        <th scope="col">Semantic HTML</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <td>&lt;div class="header"&gt;</td>
+                        <td>&lt;header&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div class="nav"&gt;</td>
+                        <td>&lt;nav&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div class="main"&gt;</td>
+                        <td>&lt;main&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div class="article"&gt;</td>
+                        <td>&lt;article&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div class="sidebar"&gt;</td>
+                        <td>&lt;aside&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div class="footer"&gt;</td>
+                        <td>&lt;footer&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div class="title"&gt;</td>
+                        <td>&lt;h1&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>&lt;div class="text"&gt;</td>
+                        <td>&lt;p&gt;</td>
+                    </tr>
+                    <tr>
+                        <td>Navigation items</td>
+                        <td>&lt;ul&gt; + &lt;li&gt;</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+
+        <aside>
+            <h2>Why Semantic HTML Matters</h2>
+
+            <p>
+                Semantic elements improve the structure of a webpage,
+                support accessibility, and make the code easier for
+                developers to understand and maintain.
+            </p>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Chukwuma Nicodemus Ndukwu</p>
+    </footer>
+
+</body>
+</html>
